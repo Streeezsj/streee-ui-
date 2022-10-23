@@ -1,0 +1,40 @@
+{
+  "name": "stre-baseui",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/stre-baseui.umd.js",
+  "module": "./dist/stre-baseui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/stre-baseui.js",
+      "require": "./dist/stre-baseui.umd.js"
+    }
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "happy-dom": "^7.5.13",
+    "highlight.js": "^11.6.0",
+    "scss": "^0.2.4",
+    
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@rollup/pluginutils": "^5.0.1",
+    "@types/node": "^18.11.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "node-sass": "^7.0.3",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "vite": "^3.1.0",
+    "vite-plugin-md": "^0.20.4"
+  }
+}
