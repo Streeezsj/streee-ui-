@@ -18,11 +18,11 @@ export default[{
             name:'textarea',
             component:()=>import("/packages/textarea/doc/doc.md")
         },
-        {
-            path:'space',
-            name:'space',
-            component:()=>import("/packages/space/doc/doc.md")
-        },
+        // {
+        //     path:'space',
+        //     name:'space',
+        //     component:()=>import("/packages/space/doc/doc.md")
+        // },
         {
             path:'select',
             name:'select',
