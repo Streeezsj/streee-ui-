@@ -18,6 +18,10 @@ const props = defineProps({
   },
   disabled: Boolean,
   round: Boolean,
+  leftIcon: {
+    type: String,
+    default: "default",
+  },
 });
 const tClass = computed(() => {
   return [
@@ -25,6 +29,7 @@ const tClass = computed(() => {
     `t-button-${props.type}`,
     props.disabled ? "t-button-disabled" : "",
     props.round ? "t-button-round" : "",
+    `t-button-${props.leftIcon}`,
   ];
 });
 </script>

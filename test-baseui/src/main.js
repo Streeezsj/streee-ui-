@@ -3,7 +3,7 @@ import App from './App.vue'
 import TUI from "../packages/index.js"
 // import TUI from "../packages/index.js"
 import router from "../src/router/index.js"
-import '../node_modules/struis/dist/style.css'
+// import '../node_modules/struis/dist/style.css'
 import hljs from 'highlight.js'
 import "highlight.js/styles/color-brewer.css"
 const app =createApp(App)
